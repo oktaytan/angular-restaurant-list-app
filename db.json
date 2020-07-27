@@ -1,0 +1,22 @@
+{
+	"restaurants": [
+		{
+			"id": 1,
+			"name": "KFC restaurant",
+			"address": "venice sector 45",
+			"email": "kfc@test.com"
+		},
+		{
+			"id": 2,
+			"name": "McDonalds restaurant",
+			"address": "zamboda sector 321",
+			"email": "mcdonalds@test.com"
+		},
+		{
+			"id": 3,
+			"name": "Burger King restaurant",
+			"address": "mokua sector 345",
+			"email": "burgerking@test.com"
+		}
+	]
+}
