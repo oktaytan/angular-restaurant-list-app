@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  title = 'ngApp';
+  public showSideNav: boolean = false;
+
+  drawerToggle(drawer) {
+    this.showSideNav = !this.showSideNav;
+    drawer.toggle();
+  }
+
+  closed() {
+    this.showSideNav = false;
+  }
 }
