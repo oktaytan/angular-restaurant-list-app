@@ -24,4 +24,8 @@ export class RestoService {
   updateRestaurant(id, data) {
     return this._http.put<any>(this.url + "restaurants/" + id, data);
   }
+
+  searchRestaurants(query) {
+    return this._http.get(this.url + "restaurants?q=" + query);
+  }
 }

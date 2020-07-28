@@ -1,20 +1,13 @@
 import { RestoService } from "./../resto.service";
 import { Component, OnInit } from "@angular/core";
 
-interface IRestaurant {
-  id: number;
-  name: string;
-  description: string;
-  email: string;
-}
-
 @Component({
   selector: "app-list-resto",
   templateUrl: "./list-resto.component.html",
   styleUrls: ["./list-resto.component.scss"],
 })
 export class ListRestoComponent implements OnInit {
-  public restaurants: IRestaurant[];
+  public restaurants: any[];
 
   constructor(private _resto: RestoService) {}
 

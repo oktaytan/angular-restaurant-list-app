@@ -1,6 +1,5 @@
+import { SearchResutsComponent } from "./search-resuts/search-resuts.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
-import { RegisterComponent } from "./register/register.component";
-import { LoginComponent } from "./login/login.component";
 import { UpdateRestoComponent } from "./update-resto/update-resto.component";
 import { AddRestoComponent } from "./add-resto/add-resto.component";
 import { ListRestoComponent } from "./list-resto/list-resto.component";
@@ -12,8 +11,7 @@ const routes: Routes = [
   { path: "list", component: ListRestoComponent },
   { path: "add", component: AddRestoComponent },
   { path: "update/:id", component: UpdateRestoComponent },
-  { path: "login", component: LoginComponent },
-  { path: "register", component: RegisterComponent },
+  { path: "search", component: SearchResutsComponent },
   { path: "**", component: PageNotFoundComponent },
 ];
 

@@ -3,22 +3,19 @@
     <button (click)="drawerToggle(drawer)" mat-button class="toggle_icon">
       <mat-icon>menu</mat-icon>
     </button>
-    <a routerLink="/list" class="nav_link">RestaurantList</a>
+    <a routerLink="/list" class="nav_link" style="font-size: 1.4rem;">Resto</a>
+    <form class="search" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+      <input class="search_input" placeholder="Search..." formControlName="query">
+      <button type="submit" mat-button *ngIf="searchForm.controls.query.value" mat-icon-button>
+        <mat-icon>search</mat-icon>
+      </button>
+    </form>
     <ul class="nav">
       <li routerLink="/list">
         <a class="nav_link">Restaurants</a>
       </li>
       <li routerLink="/add">
-        <a class="nav_link">Add</a>
-      </li>
-      <li routerLink="/login">
-        <a class="nav_link">Login</a>
-      </li>
-      <li routerLink="/register">
-        <a class="nav_link">Register</a>
-      </li>
-      <li>
-        <a class="nav_link">Logout</a>
+        <a class="nav_link">Add New</a>
       </li>
     </ul>
   </nav>
@@ -33,15 +30,6 @@
         </li>
         <li routerLink="/add">
           <a class="nav_link">Add</a>
-        </li>
-        <li routerLink="/login">
-          <a class="nav_link">Login</a>
-        </li>
-        <li routerLink="/register">
-          <a class="nav_link">Register</a>
-        </li>
-        <li>
-          <a class="nav_link">Logout</a>
         </li>
       </ul>
     </nav>

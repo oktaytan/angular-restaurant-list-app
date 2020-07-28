@@ -7,8 +7,6 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AddRestoComponent } from "./add-resto/add-resto.component";
 import { UpdateRestoComponent } from "./update-resto/update-resto.component";
 import { ListRestoComponent } from "./list-resto/list-resto.component";
-import { LoginComponent } from "./login/login.component";
-import { RegisterComponent } from "./register/register.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 import { HttpClientModule } from "@angular/common/http";
@@ -21,6 +19,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatIconModule } from "@angular/material/icon";
 import { MatInputModule } from "@angular/material/input";
+import { SearchResutsComponent } from './search-resuts/search-resuts.component';
 
 @NgModule({
   declarations: [
@@ -28,9 +27,8 @@ import { MatInputModule } from "@angular/material/input";
     AddRestoComponent,
     UpdateRestoComponent,
     ListRestoComponent,
-    LoginComponent,
-    RegisterComponent,
     PageNotFoundComponent,
+    SearchResutsComponent,
   ],
   imports: [
     BrowserModule,
