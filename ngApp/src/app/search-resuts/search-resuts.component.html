@@ -1,5 +1,6 @@
-<h2 class="title">Restaurant List</h2>
-<div class="resto_list">
+<h2 *ngIf="!notFound" class="title">Restaurant List</h2>
+<p class="not_found_data" *ngIf="notFound">There is no restaurant with this search</p>
+<div *ngIf="!notFound" class="resto_list">
   <div *ngFor="let resto of restaurants" class="resto_grid">
     <mat-card class="resto_card">
       <mat-card-header>

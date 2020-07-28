@@ -13,7 +13,16 @@
       </mat-card-content>
       <mat-card-actions align="end">
         <button routerLink="/update/{{resto.id}}" mat-button color="primary">Edit</button>
-        <button mat-button color="accent">Delete</button>
+        <div class="delete_wrapper">
+          <div class="confirm" id="confirm-{{resto.id}}">
+            <p>Are you sure ?</p>
+            <div class="confirm_actions">
+              <button mat-flat-button color="accent" (click)="deleteResto(resto.id)">Yes</button>
+              <button class="close_btn" mat-button color="default" (click)="closeConfirm()">No</button>
+            </div>
+          </div>
+          <button mat-button color="accent" (click)="toggleConfirm(resto.id)">Delete</button>
+        </div>
       </mat-card-actions>
     </mat-card>
   </div>

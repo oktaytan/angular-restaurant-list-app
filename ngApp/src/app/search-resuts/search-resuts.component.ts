@@ -9,6 +9,7 @@ import { Router, ActivatedRoute } from "@angular/router";
 })
 export class SearchResutsComponent implements OnInit {
   public restaurants: any[];
+  public notFound: boolean = false;
 
   constructor(
     private _resto: RestoService,
@@ -18,7 +19,12 @@ export class SearchResutsComponent implements OnInit {
   ngOnInit(): void {
     this._resto.searchRestaurants(this.route.snapshot.queryParams.q).subscribe(
       (data: any) => {
-        this.restaurants = data;
+        if (data.length == 0) {
+          this.notFound = true;
+        } else {
+          this.notFound = false;
+          this.restaurants = data;
+        }
       },
       (err) => console.log(err),
     );
