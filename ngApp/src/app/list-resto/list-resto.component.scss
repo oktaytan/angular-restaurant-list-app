@@ -31,23 +31,33 @@
 
 .delete_wrapper {
   position: relative;
-  width: 100px;
+  width: auto;
 
   .confirm {
     width: 200px;
     position: absolute;
-    top: -110px;
     left: 50%;
-    background-color: #fff;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     padding: 1rem 0.5rem;
     z-index: 100;
     transform: translateX(-48%);
     display: none;
+    transition: all 0.25s ease-out;
 
     &.show {
+      animation: show 0.35s ease-out forwards;
       display: block;
+    }
+
+    @keyframes show {
+      0% {
+        top: -130px;
+      }
+      100% {
+        top: -110px;
+      }
     }
 
     &::after {
