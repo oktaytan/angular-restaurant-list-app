@@ -1,34 +1,41 @@
 {
-	"restaurants": [
-		{
-			"id": 1,
-			"name": "KFC restaurant",
-			"email": "kfc@test.com",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
-		},
-		{
-			"id": 2,
-			"name": "McDonalds",
-			"email": "mcdonalds@test.com",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
-		},
-		{
-			"id": 3,
-			"name": "Burger King",
-			"email": "burgerking@test.com",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
-		},
-		{
-			"id": 4,
-			"name": "Mehim Kebap",
-			"email": "mehimkebap@test.com",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
-		},
-		{
-			"id": 5,
-			"name": "Kanatçı Haydar",
-			"email": "k.haydar@test.com",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
-		}
-	]
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC restaurant",
+      "email": "kfc@test.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
+    },
+    {
+      "id": 2,
+      "name": "McDonalds",
+      "email": "mcdonalds@test.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
+    },
+    {
+      "id": 3,
+      "name": "Burger King",
+      "email": "burgerking@test.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
+    },
+    {
+      "id": 4,
+      "name": "Mehim Kebap",
+      "email": "mehimkebap@test.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
+    },
+    {
+      "id": 5,
+      "name": "Kanatçı Haydar",
+      "email": "k.haydar@test.com",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lobortis augue, ac egestas augue. Integer nisl nisi, volutpat sed diam eget, accumsan consectetur nisi. Mauris placerat nisi risus, in pulvinar tellus maximus in. Nunc luctus accumsan mauris, ac porta nisi accumsan et. Cras luctus quam a lacus aliquam, sed tristique tellus porta. Aliquam nunc ligula, convallis sit amet dui vitae, blandit dictum turpis. Phasellus ante dolor, scelerisque et dictum nec, malesuada vel leo."
+    },
+    {
+      "name": "Ahmet Usta'nın yeri",
+      "email": "usta@test.com",
+      "description": "Nam vel massa sed nisi sollicitudin varius. Integer laoreet, magna in dignissim iaculis, erat sem pretium est, dignissim tristique leo enim aliquet lorem. Etiam vel risus id est facilisis volutpat et non libero. Nulla sollicitudin ex ex, a suscipit urna feugiat in. Curabitur finibus ac risus ut ultricies. Vestibulum id nisl eu orci suscipit ultrices non vel arcu. Donec consequat ligula et mauris ullamcorper tempus. Morbi nec venenatis neque. Donec vel luctus ex. Donec lacus eros, bibendum nec luctus vel, fringilla non ligula. Maecenas egestas tincidunt posuere. Aliquam consectetur, lorem id tempus lobortis, dui risus luctus sem, vitae ornare erat lectus at turpis. In hac habitasse platea dictumst.",
+      "id": 6
+    }
+  ],
+  "users": []
 }

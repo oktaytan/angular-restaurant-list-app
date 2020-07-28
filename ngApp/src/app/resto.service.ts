@@ -7,9 +7,21 @@ import { HttpClient } from "@angular/common/http";
 export class RestoService {
   constructor(private _http: HttpClient) {}
 
-  private url: string = "http://localhost:3000/restaurants/";
+  private url: string = "http://localhost:3000/";
 
   getAllList() {
-    return this._http.get(this.url);
+    return this._http.get(this.url + "restaurants");
+  }
+
+  getSingleRestaurant(id) {
+    return this._http.get(this.url + "restaurants/" + id);
+  }
+
+  addRestaurant(data) {
+    return this._http.post<any>(this.url + "restaurants", data);
+  }
+
+  updateRestaurant(id, data) {
+    return this._http.put<any>(this.url + "restaurants/" + id, data);
   }
 }

@@ -1,3 +1,4 @@
+<h2 class="title">Restaurant List</h2>
 <div class="resto_list">
   <div *ngFor="let resto of restaurants" class="resto_grid">
     <mat-card class="resto_card">
@@ -11,7 +12,7 @@
         </p>
       </mat-card-content>
       <mat-card-actions align="end">
-        <button routerLink="/update" mat-button color="primary">Edit</button>
+        <button routerLink="/update/{{resto.id}}" mat-button color="primary">Edit</button>
         <button mat-button color="accent">Delete</button>
       </mat-card-actions>
     </mat-card>

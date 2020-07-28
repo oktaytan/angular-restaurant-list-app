@@ -1,8 +1,11 @@
+@import "../global";
+
 .resto_list {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-gap: 2rem;
+  margin-top: 2rem;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
@@ -18,6 +21,7 @@
   padding: 1rem 0.5rem;
   border-radius: 4px;
   min-height: 200px;
+  background-color: #fff;
 
   p {
     padding: 0 1rem;

@@ -4,7 +4,7 @@ import { Component, OnInit } from "@angular/core";
 interface IRestaurant {
   id: number;
   name: string;
-  address: string;
+  description: string;
   email: string;
 }
 
@@ -20,7 +20,9 @@ export class ListRestoComponent implements OnInit {
 
   ngOnInit(): void {
     this._resto.getAllList().subscribe(
-      (data) => this.restaurants = data,
+      (data: any) => {
+        this.restaurants = data;
+      },
       (err) => console.log(err),
     );
   }
